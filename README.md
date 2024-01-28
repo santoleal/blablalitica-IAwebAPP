@@ -14,6 +14,6 @@ Funciona a través del ingreso de metadatos, como por ejemplo: temas clave, punt
 
 ### Link de [presentación de Proyecto](https://docs.google.com/presentation/d/1dGrkx6VGI26YmRSE7JXXsiRazubV0gIWQusPqZzN1ao/edit?usp=drive_link "Link a Google Slides")
 
-### Link con video de demostración (desde lunes 29/01, lo siento por la espera)
+### Link con video de demostración (desde lunes 29/01) :(
 
-### Link de aplicación (desde lunes 29/01, lo siento por la espera)
+### Link de aplicación (desde lunes 29/01) :(
