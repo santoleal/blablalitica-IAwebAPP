@@ -4,7 +4,7 @@
 
 ## Descripción:
 
-BlaBlaLítica genera discursos políticos desde usando Inteligencia Artificial.
+BlaBlaLítica genera discursos políticos usando Inteligencia Artificial.
 
 Funciona a través del ingreso de metadatos, como por ejemplo: temas clave, puntos estratégicos y tono deseado; además de permitir datos puntuales como indicadores económicos, entre otros.
 
