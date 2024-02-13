@@ -24,6 +24,6 @@ Funciona a través del ingreso de datos, como por ejemplo: temas clave, puntos e
 
 ### Link de [presentación de Proyecto](https://docs.google.com/presentation/d/1dGrkx6VGI26YmRSE7JXXsiRazubV0gIWQusPqZzN1ao/edit?usp=drive_link "Link a Google Slides")
 
-### Link de aplicación:
+### Link de [aplicación](https://blablalitica.streamlit.app/ "Link de aplicación"):
 
 ### Link con gift de demostración:
