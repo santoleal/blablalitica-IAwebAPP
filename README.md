@@ -26,4 +26,4 @@ Funciona a través del ingreso de datos, como por ejemplo: tema clave, tono dese
 
 ### Link de [aplicación web BlablaLítica](https://blablalitica.streamlit.app/ "Link de aplicación")
 
-### Link con gift de demostración:
+### Link con [gift de demostración](https://github.com/santoleal/blablalitica-IAwebAPP/blob/main/Web%20App%20%20BlablaLitica%20-%20Muestra%20.gif?raw=true "Gif Aplicación")
