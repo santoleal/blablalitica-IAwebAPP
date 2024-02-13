@@ -3,14 +3,24 @@
 import streamlit as st
 import os
 import dotenv
-from openai import OpenAI
+from openai import OpenAI, AuthenticationError
 # from funciones import generador_discurso_politico
+from env import OPENAI_API_KEY
 
 
 # Cargar variables de entorno
 dotenv.load_dotenv()
-OpenAi_API_KEY = os.getenv('OPENAI_API_KEY')
-client = OpenAI(api_key="OpenAi_API_KEY")
+OpenAi_API_KEY = os.getenv(OPENAI_API_KEY)
+
+
+try:
+    # Inicializar el cliente de OpenAI con la clave de API
+    client = OpenAI(api_key="OpenAi_API_KEY")
+except AuthenticationError as e:
+    st.error(f"Error de autenticación: {e}")
+
+
+# client = OpenAI(api_key="OpenAi_API_KEY")
 
 # Función para generar el discurso político. Que datos_duros sea opcional y que se pueda generar el discurso con o sin datos duros.
 
@@ -70,8 +80,9 @@ datos_duros = st.text_area('Datos duros a incluir en el discurso (opcional):')
 
 # botón para generar el discurso político, vinculada a la funcionalidad de generador_discurso_politico
 if st.button('Generar discurso político'):
-    discurso = generador_discurso_politico(tipo_discurso, tema, publico_objetivo, tono_deseado, datos_duros)
+    discurso = generador_discurso_politico(tipo_discurso, tema, publico_objetivo, tono_deseado, datos_duros=None)
     st.write(discurso)  # Mostrar el discurso generado en el sitio
 
 
 
+    
