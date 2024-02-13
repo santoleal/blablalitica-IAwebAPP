@@ -1,11 +1,8 @@
-# Crear un sitio con streamlit que responda al siguiente objetivo de interacción, considerando lo que está entre llaves las variables dinámicas a aportar entre los usuarios: "Genera un discurso político {tipo_discurso} sobre {tema} destinado a {publico_objetivo}. Incluye argumentos convincentes y utiliza un tono {tono_deseado}. Incluye estos datos duros: {datos_duros}" 
-
 import streamlit as st
 import os
 import dotenv
 from openai import OpenAI, AuthenticationError
-# from funciones import generador_discurso_politico
-# from env import OPENAI_API_KEY
+
 
 
 # Cargar variables de entorno
@@ -13,11 +10,7 @@ dotenv.load_dotenv()
 OpenAi_API_KEY = os.getenv("OPENAI_API_KEY")
 
 
-try:
-    # Inicializar el cliente de OpenAI con la clave de API
-    client = OpenAI(api_key="OpenAi_API_KEY")
-except AuthenticationError as e:
-    st.error(f"Error de autenticación: {e}")
+client = OpenAI(api_key="OpenAi_API_KEY")
 
 
 # client = OpenAI(api_key="OpenAi_API_KEY")
