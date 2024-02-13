@@ -5,12 +5,12 @@ import os
 import dotenv
 from openai import OpenAI, AuthenticationError
 # from funciones import generador_discurso_politico
-from env import OPENAI_API_KEY
+# from env import OPENAI_API_KEY
 
 
 # Cargar variables de entorno
 dotenv.load_dotenv()
-OpenAi_API_KEY = os.getenv(OPENAI_API_KEY)
+OpenAi_API_KEY = os.getenv("OPENAI_API_KEY")
 
 
 try:
