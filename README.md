@@ -22,8 +22,8 @@ Funciona a través del ingreso de datos, como por ejemplo: tema clave, tono dese
   - OPEN AI API
   - Se intentó con agente AutoGPT y BabyAgi, sin éxito para este caso concreto, además de Docker.
 
-### Link de [presentación de Proyecto](https://docs.google.com/presentation/d/1dGrkx6VGI26YmRSE7JXXsiRazubV0gIWQusPqZzN1ao/edit?usp=drive_link "Link a Google Slides"){:target="\_blank"}
+### Link de [presentación de Proyecto](https://docs.google.com/presentation/d/1dGrkx6VGI26YmRSE7JXXsiRazubV0gIWQusPqZzN1ao/edit?usp=drive_link "Link a Google Slides")
 
-### Link de [aplicación web BlablaLítica](https://blablalitica.streamlit.app/ "Link de aplicación"){:target="\_blank"}
+### Link de [aplicación web BlablaLítica](https://blablalitica.streamlit.app/ "Link de aplicación")
 
 ### Link con gift de demostración:
